@@ -1,0 +1,60 @@
+x="refrigirater"#finding length of string without using len.....
+count=0
+for i in x:
+	count=count+1
+print("lenght of x:")
+print(count)
+
+s="sowmya"#count the no of characters in a string.....
+count=0
+for x in s:
+	count=count+1
+print("char ofstring:")
+print(count)
+
+s=input(" enter a string:")#display the inputback in upper and lower case....
+print(s)
+print(s.upper())
+print(s.lower())
+
+s="hello every one hello"#count occurance of a sub string in a string
+print()
+print(s.count("hello"))
+print()
+
+n=int(input('enter a num'))#fibonacci
+a=0
+b=1
+sum=0
+count=1
+while(count<=n):
+    print(sum)
+    count+=1
+    a=b
+    b=sum
+    sum=a+b
+
+n=int(input("enter no of rows: "))#pattren in 1to 10 and its avg...
+num=1
+count=0
+sum=0
+for i in range(0,n):
+    for j in range(0,i+1):
+        print(num, end=" ")
+        num+=1
+        sum+=num
+        count+=1
+    print("\n")
+    
+print(count)
+k=sum-count
+print(k)
+avg=k/count
+print("avg is: ",avg)
+
+n=int(input("enter no of rows: "))#pattrens....
+for i in range(0,n):
+    for j in range(0,i+1):
+        print("*", end=" ")
+    print("\n")
+
